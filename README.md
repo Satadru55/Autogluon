@@ -26,7 +26,7 @@ The following steps outline the complete journey from dataset upload to model de
 
 ---
 
-###Step 1: User Interface & Data Ingestion
+Step 1: User Interface & Data Ingestion
 
 - Users start by creating a **New Project** in a modern web dashboard.
 - They upload datasets packaged as **ZIP** files:
