@@ -1,10 +1,10 @@
 # Autogluon
-# 🚀 AutoGluon AutoML Platform
+#AutoGluon AutoML Platform
 _End-to-end Automated Machine Learning for Everyone_
 
 ---
 
-## 📌 1. Executive Summary
+##1. Executive Summary
 
 The **AutoGluon AutoML Platform** is a web-based system designed to make state-of-the-art machine learning accessible to everyone—**from beginners to enterprise users**.
 
@@ -20,13 +20,13 @@ The platform automates data ingestion, training, optimization, and deployment—
 
 ---
 
-## 🧠 2. System Workflow
+##2. System Workflow
 
 The following steps outline the complete journey from dataset upload to model delivery.
 
 ---
 
-### 📍 Step 1: User Interface & Data Ingestion
+###Step 1: User Interface & Data Ingestion
 
 - Users start by creating a **New Project** in a modern web dashboard.
 - They upload datasets packaged as **ZIP** files:
@@ -48,7 +48,7 @@ The following steps outline the complete journey from dataset upload to model de
 
 ---
 
-### 📍 Step 2: Secure Cloud Storage (AWS S3)
+###Step 2: Secure Cloud Storage (AWS S3)
 
 - The platform generates a secure, **pre-signed S3 upload URL**.
 - The dataset uploads **directly from the browser to S3**, ensuring:
@@ -58,7 +58,7 @@ The following steps outline the complete journey from dataset upload to model de
 
 ---
 
-### 📍 Step 3: Asynchronous Job Orchestration
+###Step 3: Asynchronous Job Orchestration
 
 - Once the dataset reaches S3, the backend creates a **Training Job**.
 - Jobs are queued using **Celery + Redis**, allowing scalable processing.
@@ -66,7 +66,7 @@ The following steps outline the complete journey from dataset upload to model de
 
 ---
 
-### 📍 Step 4: AutoGluon Engine (Compute Layer)
+###Step 4: AutoGluon Engine (Compute Layer)
 
 - **Worker Nodes (AWS EC2)** monitor the job queue:
   - GPU nodes (P3/G4) for image tasks
@@ -87,7 +87,7 @@ The following steps outline the complete journey from dataset upload to model de
 
 ---
 
-### 📍 Step 5: Delivery & Inference
+###Step 5: Delivery & Inference
 
 - The **best model** is compressed and uploaded to a private S3 bucket.
 - The user is notified via email or dashboard alert.
@@ -100,7 +100,7 @@ Users can then:
 
 ---
 
-## 🏗 3. Technical Architecture
+##3. Technical Architecture
 
 ### **Frontend**
 - React.js / Next.js  
@@ -120,7 +120,7 @@ Users can then:
 
 ---
 
-## 🎯 4. Conclusion
+## 4. Conclusion
 
 The AutoGluon AutoML Platform solves the **AI Accessibility Gap** by removing the technical barriers associated with ML model creation.
 
