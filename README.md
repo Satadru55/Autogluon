@@ -1,4 +1,4 @@
-# 📊 AutoGluon Automated ML Pipeline
+# AutoGluon Automated ML Pipeline
 
 This project demonstrates a **fully automated end-to-end AutoML workflow** built using **AutoGluon**, capable of handling:
 
